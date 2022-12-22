@@ -10,17 +10,17 @@ describe('List tests', () => {
 
   beforeEach(() => {
     wrapper = mount(<App />);
-  })
+  });
 
   it('Poprawnie wyświetla H1 z loaderem', () => {
-    expect(wrapper.find('h1').text()).toBe('Loading')
+    expect(wrapper.find('h1').text()).toBe('Loading');
   });
 
   it('Poprawnie wyświetla H1 z powitaniem "Witaj" po 2 sekundach', () => {
     jest.useFakeTimers();
     jest.runAllTimers();
     setTimeout(() => {
-      expect(wrapper.find('h1').text()).toBe('Witaj')
+      expect(wrapper.find('h1').text()).toBe('Witaj');
     }, 2100);
   });
 });
