@@ -1,3 +1,5 @@
+Utwórz komponent klasowy App, który będzie wyświetlał <h1>Witaj</h1> jednak dopiero po upływie 2 sekund. Do tego czasu wyświetl <h1>Loading</h1>. Za to czy widoczny jest loader czy powitanie, odpowiadać będzie parametr “isLoading” w stanie komponentu.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
